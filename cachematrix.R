@@ -4,7 +4,6 @@
 
 ## Create the cached inverse matrix.
 makeCacheMatrix <- function(x = matrix()) {
-
   setMatrix <- function(y) {
     x <<- y
     s <<- NULL
